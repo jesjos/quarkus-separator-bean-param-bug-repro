@@ -1,15 +1,15 @@
 package com.paf.hey;
 
-import javax.ws.rs.BeanParam;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
 import org.jboss.resteasy.reactive.RestQuery;
 import org.jboss.resteasy.reactive.Separator;
+
+import jakarta.ws.rs.BeanParam;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
 
 @Path("/hellos")
 public class HelloController {
